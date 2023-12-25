@@ -455,7 +455,7 @@ footer p {
 
 /* RESPONSIVE SECTION for mobile screen sizes */
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:360px) {
 
     /* Adjust Screen up to a maximum width of 768px */
     li a,
