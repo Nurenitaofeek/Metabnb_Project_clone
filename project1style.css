@@ -471,9 +471,9 @@ footer p {
     }
     .row2 {
 
-        margin-top: -10px;
+        
         position: absolute;
-        top: 11%;
+        top: 0%;
         font-size: 36px;
         line-height: 32px;
         font-weight: 700;
