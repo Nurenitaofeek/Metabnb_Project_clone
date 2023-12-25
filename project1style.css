@@ -466,15 +466,25 @@ footer p {
 
 
     }
+    body{
+        overflow-x: hidden;
+    }
     .row2 {
 
         margin-top: -25px;
         position: absolute;
         top: 11%;
-        left: -5%;
+        font-size: 36px;
+        line-height: 32px;
+        font-weight: 700;
+        margin-left: 27px;
+        padding: 2px;
+        
+        
+        
     }
    .flexa1 img, .flexb1 img{
-    width: 150px;
+    width: 120px;
     height: 200px;
 
    }
@@ -487,27 +497,29 @@ footer p {
     }
     .row1 {
         margin-left: 80px;
-        margin-top: 4%;
+        margin-top: 7%;
+        width: 180px;
+     
         
     }
     .bss {
         font-size: 18px;
-        font-family: cursive;
-        line-height: 25px;
-        color:rgba(0, 0, 0, 0.8);
-        margin-left: 48px;
-        margin-top: 12%;
+        font-family: sans-serif;
+        line-height: 24px;
+        color:rgb(0, 0, 0);
+        margin-left: 30px;
+        margin-top: 20%;
         margin-right: 10%;
+        font-weight: 400;
     }
     .bss1{
-        margin-left: 48px;
+        margin-left: 0px;
         font-size: 18px;
-        font-family: cursive;
-        line-height: 25px;
-        color:rgba(0, 0, 0, 0.8);
-        margin-right: 10%;
+        font-family: sans-serif;
+        line-height: 24px;
+        
+        
     }
-   
 
     .col2 {
         margin-left: 5px;
@@ -524,10 +536,8 @@ footer p {
         margin-right: 10px;
     }
 
-    .grid3 div img:not(span img) {
-        width: 550px;
-        height: 350px;
-    }
+    
+
 
     #head {
         font-size: 24px;
@@ -541,7 +551,7 @@ footer p {
     }
 
     .sec span img {
-        width: 400px;
+        width: 350px;
         height: 400px;
 
     }
@@ -564,24 +574,18 @@ footer p {
     }
 
     .flex4 {
-        flex-basis: 49.5%;
+        flex-basis: 100%;
     }
 
     .m a {
-        margin-top: -190px;
-        flex-basis: 15%;
+        margin-top: -180px;
+        flex-basis: 10%;
     }
+    
 
     .flex2 {
 
         flex-direction: column;
-    }
- 
-    .row2 {
-        font-size: 30px;
-        line-height: 36px;
-        font-weight: 700;
-
     }
 
     .flex-container {
@@ -590,8 +594,13 @@ footer p {
     }
 
     .flexa1 {
-        margin-left: 38px;
-        padding-top: 15px;
+        margin-left: 35px;
+        padding-top: 15px;   
+    }
+    .me{
+        margin-right: -20px;
+        
+       
         
     }
     .flexb1 {
@@ -604,42 +613,54 @@ footer p {
     } 
 
     input{
-        margin-left: 48px;
+        margin-left: 30px;
     }
     form>label {
         margin-right: 20%;
     }
     
   .flex1 .nav2 img{
-    width: 120px;
+    width: 103px;
     height: 20px;
   }
+   
+  
+  
   #head {
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 24px;
+    line-height: 32px;
+    
 }
 .grid3 img:nth-child(1):not(span img){
-    width: 270px;
+    width: 220px;
 }
         .sec span img{
-            width: 250px;
-            margin-left: 48px;
+            width: 200px;
+            margin-left: 35px;
            
         }
         .sec div h1,button{
-            margin-left: 48px;
+            margin-left: 35px;
         }
         .sec div p{
-            margin-left: 48px;
-            margin-right: 48px;
+            margin-left: 35px;
+            margin-right: 35px;
+        }
+       
+            
+        
+        footer li{
+            margin-bottom: -40px;
+        }
+       
         }
        
         
             
-        }
+        
         
 
-    
+    /*--
     @keyframes iterationanimation {
         0% {
             background-color: #fff;
@@ -652,4 +673,4 @@ footer p {
             position: absolute;
         }
     }
-    
+    --*/
