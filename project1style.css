@@ -170,20 +170,20 @@ span>a {
 }
 
 .bss {
-    font-size: 15px;
+    font-size: 20px;
     font-family: Redrose;
     line-height: 24px;
-    color: #000;
+    color:rgba(0, 0,0, 0.8);
     margin-left: 64px;
     margin-top: 0;
 }
 .bss1 {
-    font-size: 15px;
+    font-size: 20px;
     font-family: Redrose;
     line-height: 24px;
-    color: #000;
-    margin-left: 64px;
-    margin-top: 0;
+    color:rgba(0, 0,0, 0.8);
+    margin-left: 0px;
+    margin-top: 0; 
 }
 
 .nav2 {
@@ -470,13 +470,13 @@ footer p {
         overflow-x: hidden;
     }
     .row2 {
-        margin-top: -20px;
+        margin-top: -22px;
         font-size: 36px;
         line-height: 32px;
         font-weight: 700;
         margin-left: 27px;
         padding: 2px;
-        
+        margin-bottom: -35px;
         
         
     }
@@ -563,7 +563,7 @@ footer p {
     }
 
     footer li:nth-child(2) {
-        margin-left: -250px;
+        margin-left: -290px;
     }
 
     footer li {
@@ -576,10 +576,11 @@ footer p {
     }
 
     .m a {
-        margin-top: -180px;
-        flex-basis: 10%;
+        margin-top: -165px;
+        flex-basis: 30%;
+        margin-left: -30px;
     }
-    
+   
 
     .flex2 {
 
@@ -648,7 +649,12 @@ footer p {
             
         
         footer li{
-            margin-bottom: -40px;
+            margin-bottom: -30px;
+            
+        
+        }
+        .child {
+            margin-left: 30px;
         }
        
         }
