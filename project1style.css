@@ -470,10 +470,7 @@ footer p {
         overflow-x: hidden;
     }
     .row2 {
-
-        
-        position: absolute;
-        top: 3%;
+        margin-top: -20px;
         font-size: 36px;
         line-height: 32px;
         font-weight: 700;
@@ -499,6 +496,7 @@ footer p {
         margin-left: 80px;
         margin-top: 7%;
         width: 180px;
+        
      
         
     }
