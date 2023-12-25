@@ -442,7 +442,7 @@ footer p {
 }
 .menu-bar{
     position: absolute;
-    top: 30px;
+    top: 50px;
     left: 30px;
     display: none;
 }
@@ -494,7 +494,7 @@ footer p {
     }
     .row1 {
         margin-left: 80px;
-        margin-top: 7%;
+        margin-top: 15%;
         width: 180px;
         
      
